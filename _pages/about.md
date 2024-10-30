@@ -7,7 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-#hi,好久不见，别来无恙啊。
-这是我的个人主页，我会在这上面发布一些我学习的感悟和想法。如果你和我一样都对于计算机学习有着兴趣，欢迎通过邮件联系我。
-我的邮件是[EMAIL](mailto:yinkochieh@outlook.com)
-希望我的分享能给你带来帮助！
+I'm graduated from [Jinling Institute of Technology](https://www.jit.edu.cn/), which is located in Nanjing, China. 
+
+I am very interested in computer technology.The language I mainly use is Java
+
+You can find my CV here: [Kochieh Yin's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
+
+I will share here some of the bugs I encountered, new technologies I just learned, and some notes I sorted out.
+
+If you are interested, please contact me. I hope my blog can help you!
+[Email](mailto:yinkochieh@outlook.com) / [Github](https://github.com/verbannung) / [Wechat](../images/wechat.jpg)
+————————————————
+
+                         
+

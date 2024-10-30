@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Elliot/Personal HomePage"
 title_separator          : "-"
-name                     : &name "Elliot Yin"
-description              : &description "hi,好久不见，别来无恙"
+name                     : &name "Kochieh Yin"
+description              : &description "I think,therefore I am"
 url                      : "https://verbannung.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "verbannung/verbannung.github.io"
@@ -21,22 +21,22 @@ repository               : "verbannung/verbannung.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Elliot Yin"
+  avatar           : "avatar.png"
+  name             : "Elliot"
   pronouns         : # example: "she/her"  
-  bio              : "思维决定高度"
+  bio              : "I think,therefore I am"
   location         : "Nanjing,China"
-  employer         : ""
+  employer         : #""
   uri              : # URL
   email            : "yinkochieh@outlook.com"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
