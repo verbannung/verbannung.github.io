@@ -16,11 +16,11 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'  # 你项目所需的 Ruby 版本
+          ruby-version: '2.7'  # 使用与 GitHub Pages 兼容的 Ruby 版本
 
       - name: Install Jekyll and dependencies
         run: |
-          gem install bundler
+          gem install bundler -v 2.4.22  # 安装与 Ruby 2.7 兼容的 Bundler 版本
           bundle install
 
       - name: Build the site
