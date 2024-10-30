@@ -3,32 +3,34 @@ name: Deploy Jekyll site to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - master  # 如果你使用的是主分支，请确保它是 master
 
 jobs:
-  build-and-deploy:
+  build-deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Set up Ruby 2.7
+        uses: actions/setup-ruby@v1
         with:
-          ruby-version: '2.7'  # 使用与 GitHub Pages 兼容的 Ruby 版本
+          ruby-version: 2.7
 
-      - name: Install Jekyll and dependencies
+      - name: Install Bundler compatible with Ruby 2.7
+        run: gem install bundler -v 2.4.22
+
+      - name: Install dependencies
         run: |
-          gem install bundler -v 2.4.22  # 安装与 Ruby 2.7 兼容的 Bundler 版本
+          bundle config set --local path 'vendor/bundle'
           bundle install
 
-      - name: Build the site
+      - name: Build Jekyll site
         run: bundle exec jekyll build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          publish_branch: master
+          publish_dir: ./_site  # Jekyll 输出的静态网站目录
