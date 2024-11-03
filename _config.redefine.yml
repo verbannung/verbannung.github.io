@@ -1,0 +1,59 @@
+info:
+  title: Elliot's Blog
+  subtitle: 'I think,therefore I am'
+  author: Elliot
+  url: https://github.com/verbannung
+
+home_banner:
+  title: '好久不见，别来无恙'
+  subtitle:
+    text: ['江东子弟多才俊','卷土重来未可知']
+
+home:
+  tags:
+    enable: true
+    limit: 6
+  sidebar:
+    enable: true
+    position: left
+    announcement: 导航栏
+    categories:
+      enable: true
+      limit: 5
+    links:
+      Archives: # Display name
+        path: /archives # Path
+        icon: fa-regular fa-archive # Icon, can be empty
+      Tags: # Display name
+        path: /tags # Path
+        icon: fa-regular fa-tags # Icon, can be empty
+      Test1:
+        path: /test1
+        icon: fa-regular fa-folder #
+
+#导航栏
+navbar:
+  links:
+    Notes: # 一级菜单栏名称
+      path: /notes # 网址，可以为相对路径或者绝对路径
+      icon: fa-brands fa-google # Fontawesome图标名称（可选）
+    About: # 一级菜单栏名称
+      icon: fa-regular fa-user # Fontawesome图标名称（可选）
+      submenus: # 二级菜单栏
+        Me: /about # 二级菜单栏名称：网址
+        Github: https://github.com/EvanNotFound/hexo-theme-redefine
+
+footer:
+  runtime: true
+  start: 2024/11/2 0:0:0
+
+global:
+  website_counter:
+    url: https://cn.vercount.one/js
+    enable: true
+    site_pv: true
+    site_uv: true
+    post_pv: true
+
+search:
+  enable: true
