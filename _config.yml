@@ -103,5 +103,7 @@ theme: redefine
 deploy:
   type: ''
 
+sitemap:
+  path: sitemap.xml
 
 
