@@ -12,7 +12,7 @@ excerpt: "sentinel学习。基于sentinel熔断和限流的理解。"
 
 # sentinel简介
 
-![sentinel重点思维导图](./sentinel.png)
+![sentinel重点思维导图](../../images/sentinel.png)
 ## sentinel解决什么问题
 sentinel主要可以解决雪崩效应，减少服务器压力等
 ## sentinel主要功能
@@ -79,5 +79,5 @@ public class ConfB {
 ！注意``BlockException``
 
 ## fallback和blockhandler 同时存在的处理方法
-![image](./fallback.png)
+![image](../../images/fallback.png)
 
