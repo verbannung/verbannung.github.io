@@ -57,3 +57,6 @@ global:
 
 search:
   enable: true
+
+comment:
+  enable: false
