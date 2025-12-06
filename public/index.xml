@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>技术笔记</title>
-    <link>http://localhost:1313/</link>
+    <link>https://elliot-blog.com/</link>
     <description>Recent content on 技术笔记</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.146.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 06 Dec 2024 10:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Dec 2025 17:12:47 +0000</lastBuildDate>
+    <atom:link href="https://elliot-blog.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>第一篇文章</title>
-      <link>http://localhost:1313/posts/my-first/</link>
-      <pubDate>Fri, 06 Dec 2024 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-first/</guid>
-      <description>这是第一篇测试文章</description>
+      <title>测试文章</title>
+      <link>https://elliot-blog.com/posts/test-post/</link>
+      <pubDate>Sat, 06 Dec 2025 17:12:47 +0000</pubDate>
+      <guid>https://elliot-blog.com/posts/test-post/</guid>
+      <description>这是一个测试文章，用于验证Hugo站点功能</description>
+    </item>
+    <item>
+      <title>spring源码理解bean生命周期</title>
+      <link>https://elliot-blog.com/posts/spring%E6%BA%90%E7%A0%81%E7%90%86%E8%A7%A3-bean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</link>
+      <pubDate>Sat, 06 Dec 2025 19:36:02 +0800</pubDate>
+      <guid>https://elliot-blog.com/posts/spring%E6%BA%90%E7%A0%81%E7%90%86%E8%A7%A3-bean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</guid>
+      <description>spring源码理解bean生命周期</description>
     </item>
     <item>
       <title>关于</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://elliot-blog.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://elliot-blog.com/about/</guid>
       <description>&lt;h2 id=&#34;关于我&#34;&gt;关于我&lt;/h2&gt;
 &lt;p&gt;技术爱好者&lt;/p&gt;
 &lt;h2 id=&#34;技术栈&#34;&gt;技术栈&lt;/h2&gt;

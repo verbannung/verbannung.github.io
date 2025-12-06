@@ -2,31 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-12-06T10:00:00+08:00</lastmod>
+    <loc>https://elliot-blog.com/posts/</loc>
+    <lastmod>2025-12-06T17:12:47+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-12-06T10:00:00+08:00</lastmod>
+    <loc>https://elliot-blog.com/tags/</loc>
+    <lastmod>2025-12-06T17:12:47+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-12-06T10:00:00+08:00</lastmod>
+    <loc>https://elliot-blog.com/tags/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2025-12-06T17:12:47+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2024-12-06T10:00:00+08:00</lastmod>
+    <loc>https://elliot-blog.com/posts/test-post/</loc>
+    <lastmod>2025-12-06T17:12:47+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-first/</loc>
-    <lastmod>2024-12-06T10:00:00+08:00</lastmod>
+    <loc>https://elliot-blog.com/</loc>
+    <lastmod>2025-12-06T17:12:47+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-06T10:00:00+08:00</lastmod>
+    <loc>https://elliot-blog.com/tags/spring/</loc>
+    <lastmod>2025-12-06T19:36:02+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2024-12-06T10:00:00+08:00</lastmod>
+    <loc>https://elliot-blog.com/posts/spring%E6%BA%90%E7%A0%81%E7%90%86%E8%A7%A3-bean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</loc>
+    <lastmod>2025-12-06T19:36:02+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://elliot-blog.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://elliot-blog.com/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://elliot-blog.com/archives/</loc>
+  </url><url>
+    <loc>https://elliot-blog.com/search/</loc>
   </url>
 </urlset>
