@@ -23,7 +23,7 @@ spring的最重要的函数是AbstractApplicationContext的refresh函数，这�
 
 ### BeanFactory
 
-![BeanFactory uml](media/17581253686532/17581257114195.jpg)
+![BeanFactory uml](./media/17581253686532/17581257114195.jpg)
 
 Spring里面的默认BeanFactory是DefaultListableBeanFactory。
 
@@ -36,9 +36,9 @@ Spring里面的默认BeanFactory是DefaultListableBeanFactory。
 
 #### BeanFactoryPostProcessor（BeanDefinition 的处理/扩展）
 
-![BeanFactoryPostProcessor uml图](media/17581288248887.jpg)
+![BeanFactoryPostProcessor uml图](./media/17581288248887.jpg)
 
-![BeanDefinitionRegistryPostProcessor](media/17581319049457.jpg)
+![BeanDefinitionRegistryPostProcessor](./media/17581319049457.jpg)
 
 
 1. BeanFactoryPostProcessor(BFPP)最重要的核心方法就是postProcessBeanFactory，这是一个执行的钩子函数。这个接口在这里调用：ApplicationContext.refresh()方法的invokeBeanFactoryPostProcessors(beanFactory)中会执行。你当然也可以手动add进去，它也会在这里执行。比如
@@ -96,7 +96,7 @@ String[] dependsOn = mbd.getDependsOn();
 
 这个是在DefaultListableBeanFactory的preInstantiateSingleton（）中，在初始化之前会找一遍它的依赖的bean，确保它所依赖bean优先被创建出来。
 
-#### BeanPostProcessor（bean初始化前后调用）![BPP](media/17582522651742.jpg)
+#### BeanPostProcessor（bean初始化前后调用）![BPP](./media/17582522651742.jpg)
 
 
 
