@@ -34,7 +34,7 @@ params:
   env: production
   description: "GIS开发、算法、图形学技术笔记"
   keywords: [GIS, 算法, 图形学, PostGIS, Cesium, Hugo]
-  author: "KochiehYin"
+  author: "elliot"
 
   defaultTheme: auto
   disableThemeToggle: false
