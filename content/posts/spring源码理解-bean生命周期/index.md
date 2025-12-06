@@ -23,7 +23,7 @@ spring的最重要的函数是AbstractApplicationContext的refresh函数，这�
 
 ### BeanFactory
 
-![BeanFactory uml](./media/17581253686532/17581257114195.jpg)
+![BeanFactory uml](./media/17581257114195.jpg)
 
 Spring里面的默认BeanFactory是DefaultListableBeanFactory。
 
