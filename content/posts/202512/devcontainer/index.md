@@ -1,6 +1,6 @@
 ---
 title: "DevContainer 实践：VS Code vs JetBrains 深度对比"
-date: 2024-12-14
+date: 2025-12-14
 draft: false
 tags: ["Docker", "DevContainer", "VS Code", "PyCharm", "开发环境"]
 categories: ["开发工具"]
@@ -151,7 +151,6 @@ PyCharm 从 2023.3 开始支持 Dev Containers，2025.3 新增了「Native 模�
 
 打开项目后，PyCharm 会检测 `.devcontainer` 并构建：
 
-![PyCharm Dev Container 界面](assets/Screenshot%202025-12-14%20at%2011.25.54%20PM.png)
 
 可以看到终端已经进入容器（`root@61634a949bd3:/app#`）
 
