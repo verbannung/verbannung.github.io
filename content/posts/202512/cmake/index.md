@@ -1,8 +1,11 @@
-+++
-date = '2025-12-19T21:46:39+08:00'
-draft = true
-title = 'Cmake'
-+++
+---
+title: "Cmake理解"
+date: 2025-12-19T21:46:39+08:00
+draft: false
+summary: "cmake理解"
+tags: ["cmake"]
+---
+
 # cmake理解
 
 ## cmake
