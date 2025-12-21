@@ -1,8 +1,8 @@
 ---
-title: "python理解metaclass,类/实例属性查找机制"
+title: "python理解metaclass,类,实例属性查找机制"
 date: 2025-12-21T19:36:02+08:00
 draft: false
-summary: "python理解metaclass,类/实例属性查找机制"
+summary: "python理解metaclass,类,实例属性查找机制"
 tags: ["python","metaclass"]
 ---
 
