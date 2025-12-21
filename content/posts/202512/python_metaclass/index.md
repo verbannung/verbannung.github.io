@@ -1,12 +1,12 @@
 ---
-title: "python理解metaclass,类,实例属性查找机制"
-date: 2025-12-21T19:36:02+08:00
+title: "Python 深度进阶：元类 (Metaclass) 与属性查找机制解析"
+date: 2025-12-20T19:36:02+08:00
 draft: false
-summary: "python理解metaclass,类,实例属性查找机制"
+summary: "Python 深度进阶：元类 (Metaclass) 与属性查找机制解析"
 tags: ["python","metaclass"]
 ---
 
-# python理解metaclass,类/实例属性查找机制
+# Python 深度进阶：元类 (Metaclass) 与属性查找机制解析
 
 ## metaclass 
 
