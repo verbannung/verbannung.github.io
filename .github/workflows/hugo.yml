@@ -22,7 +22,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.152.2
+      HUGO_VERSION: 0.154.5
     steps:
       - name: Install Hugo CLI
         run: |
@@ -34,6 +34,10 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+
+      - name: Verify submodules
+        run: |
+          git submodule status
 
       - name: Setup Pages
         id: pages
