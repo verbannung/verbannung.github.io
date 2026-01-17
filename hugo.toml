@@ -190,7 +190,7 @@ ignoreErrors = ["error-remote-getjson"]
       # Gravatar 邮箱
       gravatarEmail = ""
       # 主页显示头像的 URL
-      avatarURL = "/images/avatar.png"
+      avatarURL = "/images/avatar.jpg"
       # 主页显示的网站标题
       title = "好久不见,别来无恙"
       # 主页显示的网站副标题
