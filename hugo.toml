@@ -225,6 +225,8 @@ ignoreErrors = ["error-remote-getjson"]
     [params.page.code]
       [params.page.code.render]
         mermaid = false
+    # 是否显示浏览次数
+    views = true                                         # ✅ 启用访客统计
     # 是否在首页隐藏
     hiddenFromHomepage = false
     # 是否在搜索中隐藏
@@ -278,7 +280,7 @@ ignoreErrors = ["error-remote-getjson"]
         meta = ""
         pageSize = 10
         lang = ""
-        visitor = false
+        visitor = true                    # ✅ 启用访客统计
         recordIP = true
         highlight = true
         enableQQ = false
