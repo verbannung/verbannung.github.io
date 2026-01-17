@@ -14,19 +14,17 @@
 !hugo.toml
 !README.md
 
-# 忽略构建输出
+
 public/
 resources/
 
-# 忽略IDE配置
 .idea/
 .vscode/
 
-# 忽略系统文件
 .DS_Store
 Thumbs.db
 
-# 忽略临时文件
+
 *.tmp
 *.swp
 *.swo

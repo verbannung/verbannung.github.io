@@ -6,6 +6,8 @@ tags: ["Docker", "DevContainer", "VS Code", "PyCharm", "开发环境"]
 categories: ["开发工具"]
 ---
 
+# DevContainer 实践：VS Code vs JetBrains 深度对比
+
 ## 为什么需要 DevContainer
 
 作为 GIS 后端开发，我经常遇到这些痛点：
