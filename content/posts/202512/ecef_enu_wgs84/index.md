@@ -2,9 +2,12 @@
 ---
 title: "ENU/ECEF/WGS84坐标系理解"
 date: 2025-12-06T19:36:02+08:00
+lastmod: 2025-12-06T19:36:02+08:00
 draft: false
-summary: "ENU/ECEF/WGS84坐标系理解"
-tags: ["坐标系"]
+description: "详解三种坐标系的定义、转换关系以及在GIS和3D应用中的使用方法"
+tags: ["坐标系", "GIS", "地理信息"]
+categories: ["GIS"]
+keywords: ["坐标系", "ENU", "ECEF", "WGS84", "地理编码"]
 ---
 
 
@@ -24,7 +27,7 @@ wgs84定义在椭球面上,LLA(对应x轴方向夹角经度lon,z方向夹角维�
 
 enu是一个局部坐标系,我们计算体积盒AABB的时候,通过ENU坐标系计算
 
-### ### 注意
+### 注意
 
 wgs84坐标系非笛卡尔坐标系,1° 经度的实际距离 ≈ 111km × cos(φ),切记不要用wgs84直接计算AABB包围盒
 

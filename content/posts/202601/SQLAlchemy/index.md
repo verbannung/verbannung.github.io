@@ -1,9 +1,12 @@
 ---
 title: "SQLAlchemy核心架构与缓存体系"
 date: 2026-01-17
+lastmod: 2026-01-17
 draft: false
-tags: ["SQLAlchemy"]
-categories: ["python","orm"]
+description: "深入讲解 SQLAlchemy 的核心架构、Session 工作原理、连接池管理和缓存体系"
+tags: ["SQLAlchemy", "Python", "ORM"]
+categories: ["Python", "技术"]
+keywords: ["SQLAlchemy", "Session", "Identity Map", "缓存"]
 ---
 
 

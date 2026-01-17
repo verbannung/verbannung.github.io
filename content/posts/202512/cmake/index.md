@@ -1,9 +1,12 @@
 ---
 title: "Cmake理解"
 date: 2025-12-19T21:46:39+08:00
+lastmod: 2025-12-19T21:46:39+08:00
 draft: false
-summary: "cmake理解"
-tags: ["cmake"]
+description: "CMake 构建系统的理解和应用"
+tags: ["cmake", "C++", "构建工具"]
+categories: ["开发工具"]
+keywords: ["CMake", "构建", "编译"]
 ---
 
 # cmake理解

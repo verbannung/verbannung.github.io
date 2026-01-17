@@ -1,9 +1,12 @@
 ---
 title: "Python 深度进阶：元类 (Metaclass) 与属性查找机制解析"
 date: 2025-12-20T19:36:02+08:00
+lastmod: 2025-12-20T19:36:02+08:00
 draft: false
-summary: "Python 深度进阶：元类 (Metaclass) 与属性查找机制解析"
-tags: ["python","metaclass"]
+description: "深入讲解 Python 元类的工作原理、属性查找机制、以及在实际项目中的应用"
+tags: ["python", "metaclass", "高级特性"]
+categories: ["Python"]
+keywords: ["Python", "Metaclass", "元类", "属性查找", "MRO"]
 ---
 
 # Python 深度进阶：元类 (Metaclass) 与属性查找机制解析

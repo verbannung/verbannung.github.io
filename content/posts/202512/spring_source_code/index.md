@@ -1,9 +1,12 @@
 ---
 title: "spring源码理解bean生命周期"
 date: 2025-12-06T19:36:02+08:00
+lastmod: 2025-12-06T19:36:02+08:00
 draft: false
-summary: "spring源码理解bean生命周期"
-tags: ["spring"]
+description: "深入分析Spring框架源码，理解Bean的生命周期、IOC容器工作原理和依赖注入机制"
+tags: ["spring", "Java", "源码分析"]
+categories: ["Java", "框架"]
+keywords: ["Spring", "Bean", "IOC", "生命周期", "源码"]
 ---
 
 

@@ -1,9 +1,12 @@
 ---
 title: "DevContainer 实践：VS Code vs JetBrains 深度对比"
 date: 2025-12-14
+lastmod: 2025-12-14
 draft: false
+description: "深度对比 VS Code 和 JetBrains 的 DevContainer 支持，包括配置、使用体验和踩坑总结"
 tags: ["Docker", "DevContainer", "VS Code", "PyCharm", "开发环境"]
 categories: ["开发工具"]
+keywords: ["DevContainer", "VS Code", "PyCharm", "开发环境", "容器"]
 ---
 
 # DevContainer 实践：VS Code vs JetBrains 深度对比
