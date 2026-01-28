@@ -221,6 +221,9 @@ ignoreErrors = ["error-remote-getjson"]
 
   # 文章页面配置
   [params.page]
+    # 数学公式渲染配置
+    [params.page.math]
+      enable = true
     # 代码渲染配置
     [params.page.code]
       [params.page.code.render]

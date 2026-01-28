@@ -8,11 +8,8 @@ tags: ["affine"]
 categories: ["math", "liner algebra"]
 keywords: ["math", "liner algebra", "affine Map"]
 ---
-
-
-
+# 仿射空间数学理解及证明
 ## 仿射空间基本定义
-
 ### 定义 4.1.1 (仿射空间)
 
 设 $V$ 是域 $\mathbb{K}$ 上的 $n$ 维向量空间，$A$ 是一个非空集合，$A$ 中的元素称为**点**(point)。如果存在满足以下条件的加法映射 
