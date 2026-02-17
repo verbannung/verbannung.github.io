@@ -23,6 +23,7 @@ resources/
 
 .DS_Store
 Thumbs.db
+.omc
 
 
 *.tmp
