@@ -13,4 +13,4 @@ summary: "关于我"
 ## 联系方式
 
 - GitHub: [@verbannung](https://github.com/verbannung)
-- email: verbannung@163.com
+- email: elliot@verbannung.com
